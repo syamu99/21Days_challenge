@@ -1,0 +1,50 @@
+
+import React,{useState, useEffect} from 'react'
+import "./MainPage.css"
+import axios from 'axios';
+
+
+//data stroed local by using states conecpt
+
+function MainPage(){
+  const [data, setData] = useState([]);
+  const apiGet=() => {
+    
+  axios.get("https://jsonplaceholder.typicode.com/todos").then((responce) => responce.json())
+  .then((json)=> {
+    console.log(json)
+    setData(json)
+})
+
+}
+
+//we can use useEffect to allow you can perform side effects in your computer like fetching  data directly updating the DOM, and timers. useEffect accepts two arguments. 
+//The second argument is optional. useEffect(<function>, <dependency>).
+useEffect(() => {
+apiGet();
+  },  []);
+
+return (
+
+  <div> My APP <br />
+  <button onClick={apiGet}> FetchApi</button>
+  
+  {/* <pre>{JSON.stringify(data,null,2)}</pre>*/}
+  <div> 
+ 
+  {data.map((item)=>( 
+   <ul> <li key={item.id}>{item.id},{item.phone},{item.name},{item.address.city}</li> </ul>
+    
+   
+   ))}
+ 
+  
+  </div>
+ 
+  </div>
+
+);
+  
+};
+
+export default MainPage
