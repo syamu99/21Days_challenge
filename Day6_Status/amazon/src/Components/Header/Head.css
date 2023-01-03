@@ -1,0 +1,221 @@
+.header{
+    
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;    
+}
+.header .header_top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    top: 10px;
+    z-index: 1000px;
+    height: 60px;
+    position: sticky;
+    background: #000;
+    
+}
+/* .header .header_top .left_nav_bar{
+    margin-left: 10px;
+    padding: 5px, 5px, 2px, 5px;
+    color: #fff;
+    border: 1px, solid, #555;
+    object-fit: cover;
+} */
+.header .logo{
+    width: 99px;
+    height:25px;
+    margin-left: 10px;
+}
+/* .headerOptions2{
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    color: white;
+}
+.headerOptions-one1{
+    font-size: 13px; 
+    
+   
+    padding: 5px;  
+   
+} */
+
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px; 
+}
+.header .headerSearch{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.header .headerSearch .headersearch-input{
+    height: 20px;
+    width: 450px;
+    display: flex;
+    padding: 15px;
+}
+.header .headerSearch .headersearchIcon{
+    height: 34px !important;
+    background-color: orange;
+    padding-inline-start: 6px;
+    
+}
+.headerSearch-nav-left {
+   
+    width: 50px;
+    height: 33px;
+    background-color:white;
+    border-radius: 2px;
+    
+}
+.headerSearch-nav-left .nav-left-flex .dropdown-name{
+    height: 50px;
+    align-items: center;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+}
+
+.Seacrh-Dropdown{
+    position: absolute;
+    /* border-color: white; */
+    margin-right: 40px;
+    margin-top: 10px;
+    border: none;
+}
+/*right navbar on header*/
+.headerNavbar-right{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 16px;
+    margin: 8px 0 25px;
+    flex-direction: row;
+}
+.headerOptions-nav{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-top: 8px;
+
+}
+.headerOptions-nav img{
+    display:flex;
+}
+
+
+.headerOptions-nav-two{
+    background-color: yellow;
+    size: 10px;
+    height: 19px;
+    width:24px
+}
+.signin-signout{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding:  0 25px;
+    align-items: center;
+    
+}
+.headerOptions{
+    display: flex;
+    margin:  0 10px;
+    height: 10vh;
+    padding: 0 10px;
+
+}
+.headerOptions .headerOptions-one{
+    font-size: 13px; 
+    padding: 10px;
+    color: white;
+    padding: 5px;  
+    margin-right: auto;  
+}
+.headerOptions .headerOptions-two{
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    /* padding-top: 6px; */
+    padding-right: 5px;
+
+}
+
+/* .signin-signout .dropdown-icon{
+    padding-top: 19px;
+} */
+.headerOptions1{
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+.headerOptions2{
+    display: flex;
+    margin: 10px;
+}
+
+.cart{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+/*header bottom */
+.headerBottom-Nav{
+background-color: rgb(43, 41, 41);
+padding-top: 5px;
+height: 40px;
+display: flex;
+align-items: center;
+color: white;
+
+}
+/* for menubarm text */
+.headerBottom-Nav-left{
+    display: flex;
+   
+    font-family: inherit;
+    justify-content: space-evenly;
+    
+}
+
+
+.menubar {
+    display: flex;
+    color: white;
+}
+
+.menu-icon{
+  margin-left: 5px ;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.content{
+    /* padding-bottom: 5px;
+    padding-right: 5px; */
+    margin: 10px;
+}
+.headerBottom-Nav-left span{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex :1;
+    align-items: center;
+    margin-top: 5px;
+}
+.headerBottom-Nav:hover{
+    border: 3px;
+    border-color: orange;
+}
+
+
+
+

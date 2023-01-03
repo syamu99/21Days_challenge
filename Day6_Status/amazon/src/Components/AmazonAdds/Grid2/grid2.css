@@ -1,0 +1,19 @@
+.Productimages{
+    display: flex;
+    flex-direction: row;
+    
+    
+    align-items: flex-start;
+    
+    
+    
+}
+.Productimages li img{
+   
+    height: 80px;
+    width:80px;
+    align-items: center;
+    list-style-type: none;
+    
+    
+}
