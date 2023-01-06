@@ -1,37 +1,62 @@
 .deals {
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    width: 10px;
-    height: 20px;
-    border: 2px solid black;
-    padding: 50px;
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        width: 10px;
+        height: 20px;
+        //     border: 2px solid black;
+        padding: 60px;
+        //     deals__figure1{
 
 
-    &__photo1{
-             width: 300px;
-             height: 500px;
-             padding-left: 60px;
-    }
-
-    &__photo2 {
-            width: 200px;
-            height: 500px;
+        &__photo1 {
+                width: 300px;
+                height: 400px;
+                padding-left: 100px;
+        }
 
 
-    }
-
-    &__name {
-            font-size: 10px;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: 400;
-            margin-top: 40px;
-    }
-    &__title{
+        &__photo2 {
+                width: 300px;
+                height: 400px;
+                margin-left: 300px;
 
 
-    font-size: 40px;
+        }
 
-    }
+        &__name1 {
+                font-size: 20px;
+                font-family: inherit;
+                font-weight: 400;
+                margin-top: 40px;
+                margin-left: 200px;
+        }
+
+        &__name2 {
+                font-size: 20px;
+                font-family: inherit;
+                font-weight: 400;
+                margin-top: 35px;
+                margin-left: 400px;
+        }
+
+        &__title1 {
+
+
+                font-size: 20px;
+               
+                margin-left: 200px;
+                margin-bottom: 20px;
+                
+
+        }
+
+        &__title2 {
+
+                font-size: 20px;
+                margin-top: 10px;
+                margin-left: 400px;
+
+        }
 
 }

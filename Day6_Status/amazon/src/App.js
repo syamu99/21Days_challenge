@@ -11,39 +11,53 @@ import DeliveryPage from './pages/HeaderPages/DeliveryPage.jsx'
 import CartPage from './pages/HeaderPages/CartPage';
 import Returns from './pages/HeaderPages/Returns';
 import SignInPage from './pages/HeaderPages/SignInPage';
-import { Themedata } from './Context/Themedata';
-
+import { ThemeProvider } from './Context/Themedata';
+import EasyReturns from './pages/Grid1Pages/EasyReturns';
+import Electronics from './pages/Grid1Pages/Electronics';
+import HealthandPersonal from './pages/Grid1Pages/Health and personal care'
+import GetFitAtHome from './pages/Grid1Pages/GetFitAtHome'
+import Dresses from './pages/Grid1Pages/Dresses'  
+import ShopDeals from './pages/Grid1Pages/ShopDeals'
+import GiftsCards from './pages/BottomPages/Gifts'
 function App() {
   return (
-    <div>
-       <Themedata>
-         <BrowserRouter> 
-         <Header />
-       
-  
-     
-      <Routes>
-        <Route path='/' element={<LandingPage />} />
-        <Route path='/' element={<LandingPage />} />
-        {/*Top Navbar*/}
-        {/* <Route path='/All Dropdown' element={<dropdowneader />} />
-        <Route path='/Delivary' element={<DeliveryPage />} />
-        <Route path='/Signin' element={<SignInPage />} />
-        <Route path='/Return' element={<Returns />} />
-        <Route path='/Cart  ' element={<CartPage />} />
-        <Route path='/All' element={<All />} /> */}
-        {/*Bottom Navbar*/}
-        {/* <Route path='/All' element={<All />} />
-        <Route path='/todaysDeals' element={<TodaysDeals />} />
-        <Route path='/CustomerService' element={<CustomerService />} />
-        <Route path='/shop now' element={<BeautyPics />} />*/}
+    <>
+      <ThemeProvider>
+        <BrowserRouter>
+          <Header /> 
 
-      </Routes> 
+          <Routes>
+            <Route path='/' element={<LandingPage />} />
+            <Route path='/LandingPage' element={<LandingPage />} />
 
-     </BrowserRouter> 
-     </Themedata>
-     
-     </div>
+            <Route path='/All Dropdown' element={<dropdowneader />} />
+            <Route path='/Delivary' element={<DeliveryPage />} />
+            <Route path='/Signin' element={<SignInPage />} />
+            <Route path='/Return' element={<Returns />} />
+            <Route path='/Cart  ' element={<CartPage />} />
+            <Route path='/All' element={<All />} />
+
+            <Route path='/todaysDeals' element={<TodaysDeals />} />
+            <Route path='/CustomerService' element={<CustomerService />} />
+            <Route path='/Shopdeals' element={< ShopDeals/>} />
+            <Route path='/Giftcards' element={< GiftsCards/>} />
+
+
+            <Route path='/shopnow' element={<BeautyPics />} />
+            <Route path='/Learnmore' element={<EasyReturns />} />
+            <Route path='/shopnow' element={<HealthandPersonal />} />
+            <Route path='/See more' element={<Electronics />} />
+            <Route path='/Explorenow' element={<GetFitAtHome />} />
+            <Route path='/shopnow' element={<GetFitAtHome />} />
+            <Route path='/shopnow' element={<Dresses />} />
+
+
+
+          </Routes>
+
+        </BrowserRouter>
+      </ThemeProvider>
+    </>
   );
 }
 

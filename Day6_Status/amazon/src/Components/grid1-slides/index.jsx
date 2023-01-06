@@ -64,7 +64,7 @@ const Slideshow = () => {
                             <h1>Health and Personal Care</h1>
                             <div className='pic'>
                                 <img alt="Health &amp; Personal Care" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop2x._SY608_CB627424361_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop2x._SY608_CB627424361_.jpg" />
-                                <Link to="/" className='linkClick'>
+                                <Link to="/Shopnow" className='linkClick'>
                                     <p> Shop now</p>
                                 </Link>
                             </div>
@@ -72,7 +72,9 @@ const Slideshow = () => {
 
                         <div className='grid-item3'>
                             <h2>Sign in the for the best experience</h2>
-                            <button>Sign in securely</button>
+                            <Link to="/Signinsecurely" className='linkClick'>
+                                <button>Sign in securely</button>
+                            </Link>
                         </div>
 
                         <div className='grid-item4'>
@@ -82,7 +84,7 @@ const Slideshow = () => {
                             <h1>Electronics</h1>
                             <div className='pic'>
                                 <img alt="Electronics" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_2x._SY608_CB432774322_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_2x._SY608_CB432774322_.jpg" />
-                                <Link to="/" className='linkClick'>
+                                <Link to="/Seemore" className='linkClick'>
                                     <p>See more</p>
                                 </Link>
                             </div>
@@ -91,8 +93,8 @@ const Slideshow = () => {
                             <h1>Get fit at home</h1>
                             <div className='pic'>
                                 <img alt="Get fit at home" src="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" />
-                                <Link to="/" className='linkClick'>
-                                    <p>Explore now</p>
+                                <Link to="/Explorenow" className='linkClick'>
+                                    <p>Explorenow</p>
                                 </Link>
                             </div>
                         </div>
@@ -100,7 +102,7 @@ const Slideshow = () => {
                             <h1>Dresses</h1>
                             <div className='pic'>
                                 <img alt="Dresses" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_2X._SY608_CB626369146_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_2X._SY608_CB626369146_.jpg" />
-                                <Link to="/" className='linkClick'>
+                                <Link to="/shopnow" className='linkClick'>
                                     <p>Shop now</p>
                                 </Link>
                             </div>
@@ -148,25 +150,41 @@ const Slideshow = () => {
                 <Products />
             </div>
             <div className='grid2-items'>
-                <div className='grid-itemFirst'>
-                            <h1>Beauty Pics</h1>
-                            <div className='pic'>
-                                <img alt="Beauty picks" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg" />
-                                <Link to="/shop now" className='linkClick'>
-                                    <p> Shop now</p>
-                                </Link>
-                            </div>
-                        </div>
+                <div className='grid-item9'>
+                    <h1>New arrivals in Toys</h1>
+                    <div className='pic'>
+                        <img alt="New arrivals in Toys" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_2X._SY608_CB639759849_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_2X._SY608_CB639759849_.jpg" />                                <Link to="/shop now" className='linkClick'>
+                            <p> Shop now</p>
+                        </Link>
+                    </div>
+                </div>
 
-                        <div className='grid-item1'>
-                            <h1>Easy Returns</h1>
-                            <div className='pic'>
-                                <img alt="Easy returns" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg" />
-                            </div>
-                            <Link to="/shop now">
-                                <p> Learn more</p>
-                            </Link>
-                        </div>
+                <div className='grid-item10'>
+                    <h1>For your Fitness needs</h1>
+                    <div className='pic'>
+                        <img alt="For your Fitness Needs" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_2X._SY608_CB639748111_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_2X._SY608_CB639748111_.jpg" />                            </div>
+                    <Link to="/shop now">
+                        <p> Shop now</p>
+                    </Link>
+                </div>
+                <div className='grid-item11'>
+                    <h1>Kindle E readers</h1>
+                    <div className='pic'>
+                        <img alt="Shop Kindle E-readers. Ships from and sold by Amazon US." src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_2X._SY608_CB639752734_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_2X._SY608_CB639752734_.jpg" />                                <Link to="/shop now" className='linkClick'>
+
+                            <p> Shop now</p>
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='grid-item12'>
+                    <h2>Shop activity trackers and smartwatches</h2>
+                    <div className='pic'>
+                        <img alt="Shop activity trackers and smartwatches" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" className="landscape-image" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" />                            </div>
+                    <Link to="/shopnow">
+                        <p>Shop now</p>
+                    </Link>
+                </div>
 
             </div>
 

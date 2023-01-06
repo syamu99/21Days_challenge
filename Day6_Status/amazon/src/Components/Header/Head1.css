@@ -29,8 +29,9 @@
     height:37px;
     margin-left: 10px;
 }
-.headerOptions img{
-    display:flex;
+.headerOptions1 img{
+   
+    margin-left: -80px;
     width: 30px;
 }
 
@@ -39,6 +40,9 @@
     flex-direction: row;
     margin-right: 90px; 
     padding:10px;
+    margin-top: -20px;
+    margin-left: -30px;
+
 }
 .header .headerSearch{
     display: flex;
@@ -52,6 +56,7 @@
     width: 800px;
     display: flex;
     padding: 20px;
+    font-size: 25px;
     
 }
 .header .headerSearch .headersearchIcon{
@@ -94,6 +99,7 @@
     display:flex;
     justify-content: space-around;
     margin-right: auto;
+    padding: 20px;
     
 }
 /*right navbar on header*/
@@ -104,13 +110,11 @@
     flex-direction: row;
 } */
 
-.headerNavbar .headerNavbar span{
+/* .headerNavbar .headerNavbar span{
     display: flex;
     justify-content: center;
-   
 
-
-}
+} */
 .headerNavbar .headerLink:first-child{
     display: flex;
     flex-direction: column;
@@ -125,31 +129,50 @@
     margin-top: 10px;
     margin-left: 10px;
     padding-right: 15px;
+    text-decoration: none;
 }
-.headerNavbar .headerOptions{
+.alllink{
+    text-decoration: none;
+    color: black;
+}
+.headerOptions{
     display: flex;
     justify-content: space-around;
     margin: 0 10px;
     height: 3vh;
     padding-top:20px;
+    margin-right: -35px;  
+}
+.headerOptions1{
+    display: flex;
+    flex-direction: column;
     
 }
+.retruns{
+    
+    margin-left:35px;
+    
+}
+.carttext{
+    margin-left: -10px;
+}
 .headerNavbar .headerOptions .headerOptions-one{
-    font-size: 13px;
+    font-size: 17px;
     width: 0px;
 
 }
 .headerNavbar .headerOptions .headerOptions-two{
     margin-top: 20px;
-    font-size: 16px;
-    font-weight: 700;
-    padding-right: 20px;
+    font-size: 18px;
+    padding-right: 30px;
+    font-family: inherit;
 
 }
 .headeroption1{
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     padding-left: 9px;
+    
 
 }
 .headerOptions-nav-two{
@@ -160,12 +183,19 @@
     /* padding-right: 20px; */
     display:flex;
    margin-left: -60px;
+  
    
     
 }
 .flag-nation{
     color: white;
-    margin-left: 20px;
+    margin-left: -45px;
+    margin-top: -26px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 20px;
+
+    
     
 }
 
@@ -175,18 +205,24 @@
     align-items: center;
     width:70px;
     size:20vh;
+   
+}
+.india{
+    margin-left: -10px;
+    font-size: 20px;
 }
 .roomiconlogo{
    margin-top: 20px; 
+   margin-left: -20px;
    
 }
 /*header bottom */
 .headerBottom-Nav{
 background-color: rgb(43, 41, 41);
 padding-top: 10px;
-height: 40px;
+height: 50px;
 display: flex;
-align-items: center;
+align-items: center;    
 color: white;
 
 }
@@ -194,7 +230,10 @@ color: white;
 .headerBottom-Nav-left{
     display: flex;
     font-family: inherit;
+    font-weight: 600;
     justify-content: space-evenly;
+    margin-top: -12px;
+    font-size: 20px;
     
 }
 
@@ -202,13 +241,15 @@ color: white;
 .menubar {
     display: flex;
     color: white;
+    margin-top: -5px;
    
 }
 
 .menu-icon{
   margin-left: 5px ;
-  margin-top: 12px;
+  margin-top: 18px;
   font-size: 30px;
+
 }
 .content{
     /* padding-bottom: 5px;
@@ -230,5 +271,32 @@ color: white;
 }
 .headerBottom-Nav:hover{
     border: 3px;
-    border-color: orange;
+    border-color: rgb(228, 213, 184);
+}
+.headerLink1{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    color: white;
+    margin-top:60px;
+    /* margin-left: -10px; */
+   
+}
+.headerBottom-Nav-left .toggle{
+ 
+ background-color : rgb(57, 47, 49);
+ height: 40px;
+ margin-top: 10px;
+}
+.folder{
+    color: rgb(66, 167, 167);
+    
+    
+}
+.Bottam-right-nav{
+    margin-left: 790px;
+   margin-top:10px;
+   font-size: 22px;
+   
 }
