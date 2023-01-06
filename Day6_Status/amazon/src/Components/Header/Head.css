@@ -8,11 +8,12 @@
     display: flex;
     width: 100%;
     align-items: center;
-    top: 10px;
-    z-index: 1000px;
+    padding-top: 20px;
+    
     height: 60px;
     position: sticky;
     background: #000;
+    padding:11px;
     
 }
 /* .header .header_top .left_nav_bar{
@@ -23,28 +24,32 @@
     object-fit: cover;
 } */
 .header .logo{
-    width: 99px;
-    height:25px;
+    width: 120px;
+    height:37px;
     margin-left: 10px;
 }
-/* .headerOptions2{
+.headerOptionshari{
     display: flex;
-    flex-direction: column;
-    margin: 1px;
-    color: white;
+    justify-content: space-around;
+    background-color: rgb(89, 219, 133);
+   width: 38%;
+    color: rgb(255, 255, 255);
+    
 }
+
+.headerOptionshari
 .headerOptions-one1{
     font-size: 13px; 
     
    
     padding: 5px;  
    
-} */
+}
 
 .search{
     display: flex;
     flex-direction: row;
-    margin-left: 130px; 
+    margin-left: 250px; 
 }
 .header .headerSearch{
     display: flex;
@@ -54,13 +59,15 @@
     
 }
 .header .headerSearch .headersearch-input{
-    height: 20px;
-    width: 450px;
+    height: 35px;
+    width: 700px;
     display: flex;
-    padding: 15px;
+    padding: 20px;
+    padding-right:  30px;
+    font-size: 18px;
 }
 .header .headerSearch .headersearchIcon{
-    height: 34px !important;
+    height: 44px !important;
     background-color: orange;
     padding-inline-start: 6px;
     
@@ -68,7 +75,7 @@
 .headerSearch-nav-left {
    
     width: 50px;
-    height: 33px;
+    height: 44px;
     background-color:white;
     border-radius: 2px;
     
@@ -76,7 +83,8 @@
 .headerSearch-nav-left .nav-left-flex .dropdown-name{
     height: 50px;
     align-items: center;
-    font-size: 12px;
+   padding-top: 20px;
+    font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 7px;
 }
@@ -84,7 +92,7 @@
 .Seacrh-Dropdown{
     position: absolute;
     /* border-color: white; */
-    margin-right: 40px;
+    margin-right: -10px;
     margin-top: 10px;
     border: none;
 }
@@ -92,7 +100,7 @@
 .headerNavbar-right{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 16px;
+    padding: 0 20px;
     margin: 8px 0 25px;
     flex-direction: row;
 }
@@ -100,7 +108,8 @@
     display: flex;
     color: white;
     text-decoration: none;
-    margin-top: 8px;
+    margin:0;
+    padding-right:10px;
 
 }
 .headerOptions-nav img{
@@ -213,7 +222,7 @@ color: white;
 }
 .headerBottom-Nav:hover{
     border: 3px;
-    border-color: orange;
+    border-color: #d7cbb5;
 }
 
 

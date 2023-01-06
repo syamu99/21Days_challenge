@@ -1,0 +1,234 @@
+.header{
+    
+    display: flex;
+    flex-direction: column ;
+      
+}
+.header .header_top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    top:0;
+    height: 60px;
+    position: sticky;
+    background: #000;
+    /* padding:15px; */
+    z-index: 1000;
+    
+}
+/* .header .header_top .left_nav_bar{
+    margin-left: 10px;
+    padding: 5px, 5px, 2px, 5px;
+    color: #fff;
+    border: 1px, solid, #555;
+    object-fit: cover;
+} */
+.header .logo{
+    width: 120px;
+    height:37px;
+    margin-left: 10px;
+}
+.headerOptions img{
+    display:flex;
+    width: 30px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-right: 90px; 
+    padding:10px;
+}
+.header .headerSearch{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    
+    
+}
+.headersearch-input{
+    height: 55px;
+    width: 800px;
+    display: flex;
+    padding: 20px;
+    
+}
+.header .headerSearch .headersearchIcon{
+    height: 54px !important;
+    background-color: rgb(224, 163, 49);
+    padding-inline-start: 6px;
+    width: 44px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    
+    
+}
+.headerSearch-nav-left {
+   position: relative;
+    width: 60px;
+    height: 54px;
+    background-color:white;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-left: 17px;
+    
+}
+.headerSearch-nav-left .psize{
+  margin-left: 6px;
+  font-size:18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+
+.Seacrh-Dropdown{
+    position: absolute;
+    margin-right: 8px;
+    margin-top: -34px;
+    margin-left: 25px;
+    border: none;
+
+}
+.headerNavbar{
+    display:flex;
+    justify-content: space-around;
+    margin-right: auto;
+    
+}
+/*right navbar on header*/
+/* .headerNavbar-right{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0 0 0;
+    flex-direction: row;
+} */
+
+.headerNavbar .headerNavbar span{
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+.headerNavbar .headerLink:first-child{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    padding-bottom: 70px;
+
+}
+.headerNavbar .headerLink{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 15px;
+}
+.headerNavbar .headerOptions{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    height: 3vh;
+    padding-top:20px;
+    
+}
+.headerNavbar .headerOptions .headerOptions-one{
+    font-size: 13px;
+    width: 0px;
+
+}
+.headerNavbar .headerOptions .headerOptions-two{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 20px;
+
+}
+.headeroption1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 9px;
+
+}
+.headerOptions-nav-two{
+   
+    size: 15px;
+    height: 20px;
+    width:30px;
+    /* padding-right: 20px; */
+    display:flex;
+   margin-left: -60px;
+   
+    
+}
+.flag-nation{
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.cart{
+    display: flex;
+    color: white;
+    align-items: center;
+    width:70px;
+    size:20vh;
+}
+.roomiconlogo{
+   margin-top: 20px; 
+   
+}
+/*header bottom */
+.headerBottom-Nav{
+background-color: rgb(43, 41, 41);
+padding-top: 10px;
+height: 40px;
+display: flex;
+align-items: center;
+color: white;
+
+}
+/* for menubarm text */
+.headerBottom-Nav-left{
+    display: flex;
+    font-family: inherit;
+    justify-content: space-evenly;
+    
+}
+
+
+.menubar {
+    display: flex;
+    color: white;
+   
+}
+
+.menu-icon{
+  margin-left: 5px ;
+  margin-top: 12px;
+  font-size: 30px;
+}
+.content{
+    /* padding-bottom: 5px;
+    padding-right: 5px; */
+    margin: 10px;
+   
+}
+.headerBottom-Nav-left span{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex :1;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 19px;
+   
+
+}
+.headerBottom-Nav:hover{
+    border: 3px;
+    border-color: orange;
+}

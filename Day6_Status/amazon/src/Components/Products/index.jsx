@@ -1,6 +1,8 @@
 import React from 'react'
 import {useState, useEffect } from 'react'
 import axios from 'axios';
+import './products.css'
+import LocationCards from '../CardsDisplay/LocationCards';
 
 const Products = () => {
     const [data1, setData1] = useState();
@@ -9,9 +11,6 @@ const Products = () => {
       const final=result.data
       console.log(final)
       setData1(final)
-
-       
-          
         }
       
     useEffect(() => {
@@ -19,14 +18,14 @@ const Products = () => {
 },[])
 
   return (
-    <div>
-      <ul className='Productimages'>
-      {data1?.map((item)=>
-      (<li key={item.id}><img src={item.image} alt="Product images"/></li>
-      ))}
-      </ul>
+    <div className='imagelist'>
+      
+      {/* {data1?.map((item)=>
+      (<ul className='Productimages'><li key={item.id}><img src={item.image} alt="Product images"/></li> </ul>
+      ))} */}
+     <LocationCards data1={data1}/>
     </div>
   );
 }
 
-export default Products
+export default Products 

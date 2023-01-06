@@ -1,10 +1,27 @@
-/*# sourceMappingURL=Header.css.map */
-
-.header{
-    display: flex;
-    flex-direction: column;
-    background-color: red;
+.deals {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 10px;
+  height: 20px;
+  border: 2px solid black;
+  padding: 50px;
 }
-.{
-    
+.deals__photo1 {
+  width: 300px;
+  height: 500px;
+  padding-left: 60px;
 }
+.deals__photo2 {
+  width: 200px;
+  height: 500px;
+}
+.deals__name {
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.deals__title {
+  font-size: 40px;
+}/*# sourceMappingURL=Header.css.map */

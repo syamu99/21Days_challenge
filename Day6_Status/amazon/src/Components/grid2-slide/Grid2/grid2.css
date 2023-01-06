@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(18,80px [col-start]);
+    grid-template-rows: repeat(18,90px [row-start]);
+    top: 900px;
+    margin-left: 12px;
+    grid-template-columns: repeat(18,80px [col-start]);
+    grid-template-rows: repeat(18,90px [row-start]);
+    width: 100%;
+    grid-gap: 25px;
+}

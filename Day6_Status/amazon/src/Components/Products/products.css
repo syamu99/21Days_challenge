@@ -1,0 +1,21 @@
+.imagelist{
+    display: flex;
+    flex-direction: row;
+    
+    /* overflow-x:scroll; */
+    
+}
+/* .Productimages{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+} */
+.Productimages li img{
+   
+    height: 80px;
+    width:100px;
+    align-items: center;
+    list-style-type: none;
+    
+}

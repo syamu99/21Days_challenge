@@ -1,0 +1,37 @@
+.deals {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 10px;
+    height: 20px;
+    border: 2px solid black;
+    padding: 50px;
+
+
+    &__photo1{
+             width: 300px;
+             height: 500px;
+             padding-left: 60px;
+    }
+
+    &__photo2 {
+            width: 200px;
+            height: 500px;
+
+
+    }
+
+    &__name {
+            font-size: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 400;
+            margin-top: 40px;
+    }
+    &__title{
+
+
+    font-size: 40px;
+
+    }
+
+}
