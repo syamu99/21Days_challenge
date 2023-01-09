@@ -13,6 +13,7 @@
     border-radius: 1ch;
     
 }
+
 .signintext{
     /* margin: 24px; */
     margin: 15px 28px ;
@@ -86,7 +87,11 @@ color: red;
     border: 1rm;
     border-color: rgb(183, 207, 232);
 }
-
+.logo{
+   
+    margin-left: 700px;
+    transform: matrix();
+}
 
 
 

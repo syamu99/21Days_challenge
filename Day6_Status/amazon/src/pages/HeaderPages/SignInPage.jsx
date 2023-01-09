@@ -24,6 +24,8 @@ const SignInPage = () => {
     <body>
       <div className="Maindiv">
         {/* signinbox */}
+        <div className="imageAmaz"></div>
+        <img className="logo" src="/amaz.png" alt="amazon link" />
         <div className="signbox">
           <form>
             <div className="signintext">Sign in</div>

@@ -1,0 +1,55 @@
+.Amazlogo{
+  background-color: red;
+margin-left: 700px;
+size:10;
+}
+.Create-Account{
+    width:480px;
+    height: 950px;
+    border: 1px solid rgb(205, 202, 202);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 1ch;
+   
+}
+.Crateaccount{
+    margin: 15px 28px ;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.textbox{
+    display: flexbox;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: -20px;
+    margin-left: 30px;
+    height: 40px;
+    width: 90%;
+    padding: 10px;
+
+}
+.input1{
+    margin-top:20px;
+}
+.inputbox{
+    height: 40px;
+    width: 90%;
+    border-radius:1ch ;
+}
+.labelname{
+    margin-left:5px;
+    font-size: 18px;
+    font-weight: 500 ;
+}
+.Continue{
+    height: 50px;
+    width: 400px;
+    border-radius: 1ch;
+    background-color: rgb(215, 166, 68);
+    font-size: 20px;
+}
