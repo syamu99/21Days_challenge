@@ -2,27 +2,13 @@
     position: relative;
     width: 100%;
 }
-.each-slide img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-
-}
 .grid-items{
     display: grid;
-    position: absolute;
-    top: 400px;
     margin-left: 12px;
     grid-template-columns: repeat(18,80px [col-start]);
-    grid-template-rows: repeat(18,90px [row-start]);
+    grid-template-rows: repeat(10,90px [row-start]);
     width: 100%;
     grid-gap: 25px;
-   
-    
-    
 
 }
 h1{
@@ -206,23 +192,23 @@ background-color: #e2c0ea;
     margin-top: 10px;
 }
 .backGrid_div{
-    height:900px;
+    /* height:900px; */
     width:100%;
+    margin-top: -300px;
+    z-index: 2;
+    position: relative;
 }
 .productDisplay{
-   background-color:white;
-  margin-right: 5px;
-   z-index: 1;
+   /* background-color:white; */
+   margin-right: 5px;
 }
 
 /* second grid2 */
 .grid2-items{
     display: grid;
-    position: absolute;
-    top: 2100px;
     margin-left: 12px;
     grid-template-columns: repeat(18,80px [col-start]);
-    grid-template-rows: repeat(18,90px [row-start]);
+    grid-template-rows: repeat(6,90px [row-start]);
     width: 100%;
     grid-gap: 25px;   
 }

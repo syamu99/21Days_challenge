@@ -1,0 +1,13 @@
+.containerSlide{
+    position: relative;
+    width: 100%;
+}
+.each-slide img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+}

@@ -69,6 +69,7 @@ const Header = () => {
             <div className="headerOptions-one">Hello,Signin</div>
             <div className="headerOptions-two">
               <b>Accounts&Lists</b>
+              <AiFillCaretDown/>
             </div>
           </Link>
           {/*Returns and orders*/}
@@ -79,7 +80,7 @@ const Header = () => {
             </div>
           </Link>
           <Link to="/Cart" className="headerLink">
-            <BsCart3 className="cart" size={35} />
+            <BsCart3 className="cart" size={40} />
             <div className="headerOptions-two carttext">
               <b>Cart</b>
             </div>

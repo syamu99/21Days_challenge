@@ -17,8 +17,6 @@ const LocationCards =( {data1} )=> {
 
         display: 'flex',
         flexGrow: 1,
-        
-    
         px: { l: 0, md: 2 },
         alignItems: 'center',
         mt: 2,
@@ -38,11 +36,7 @@ const LocationCards =( {data1} )=> {
           width: 1900,
           height: 300,
           color: blue,
-          backgroundColor: 'white',
-          marginBottom: 100,
-          
-          
-          
+          backgroundColor: 'white',          
         }}
       >
        

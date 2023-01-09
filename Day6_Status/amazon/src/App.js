@@ -1,7 +1,8 @@
-import Header from './Components/Header';
+// import Header from './Components/Header';
 // import Slideshow from './Components/grid1-slides'
 // import Grid2 from './Components/AmazonAdds/Grid2'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './Context/Themedata';
 import LandingPage from './pages/LandingPage'
 import All from './pages/BottomPages/All'
 import TodaysDeals from './pages/BottomPages/TodaysDeals';
@@ -11,7 +12,6 @@ import DeliveryPage from './pages/HeaderPages/DeliveryPage.jsx'
 import CartPage from './pages/HeaderPages/CartPage';
 import Returns from './pages/HeaderPages/Returns';
 import SignInPage from './pages/HeaderPages/SignInPage';
-import { ThemeProvider } from './Context/Themedata';
 import EasyReturns from './pages/Grid1Pages/EasyReturns';
 import Electronics from './pages/Grid1Pages/Electronics';
 import HealthandPersonal from './pages/Grid1Pages/Health and personal care'
@@ -19,13 +19,15 @@ import GetFitAtHome from './pages/Grid1Pages/GetFitAtHome'
 import Dresses from './pages/Grid1Pages/Dresses'  
 import ShopDeals from './pages/Grid1Pages/ShopDeals'
 import GiftsCards from './pages/BottomPages/Gifts'
+// import './app-routes';
+
 function App() {
   return (
     <>
       <ThemeProvider>
         <BrowserRouter>
-          <Header /> 
-
+          {/* <Header />  */}
+         
           <Routes>
             <Route path='/' element={<LandingPage />} />
             <Route path='/LandingPage' element={<LandingPage />} />

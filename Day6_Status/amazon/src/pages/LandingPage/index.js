@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-//  import Header from '../../Components/Header';
+ import Header from '../../Components/Header';
 import Slideshow from '../../Components/grid1-slides'
-
 import ThemeContext, { useTheme } from '../../Context/Themedata'
-
+import AppSlider from '../../Components/Slider';
+import GridList from '../../Components/grid1-slides';
+import SignIn from '../signin';
 const LandingPage = () => {
 
   const { toggleTheme, darkTheme } = useContext(ThemeContext);
@@ -18,7 +19,12 @@ const LandingPage = () => {
   return (
     <>
       <div style={themeStyles}>
-        < Slideshow />
+        <Header/>
+        <main>
+        <AppSlider/>
+        <GridList/>
+        </main>
+         {/* < Slideshow />  */}
         <div ></div>
       </div>
 

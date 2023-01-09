@@ -1,0 +1,40 @@
+.deals {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 10px;
+  height: 20px;
+  padding: 60px;
+  
+  figcaption {
+    .photo {
+      width: 300px;
+      height: 400px;
+      padding-left: 100px;
+    }
+    .name {
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-left: 200px;
+      }
+      .title {
+        font-size: 20px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+      }
+  }
+
+  
+
+  // &__name2 {
+  //     font-size: 20px;
+  //     font-family: inherit;
+  //     font-weight: 400;
+  //     margin-top: 35px;
+  //     margin-left: 400px;
+  // }
+
+  
+}
